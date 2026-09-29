@@ -7,7 +7,7 @@ st.title("Frieght forecasting & prediction🗺️")
 with st.form("cargo_detail"):
   st.header("Cargo Details", divider="red")
   st.subheader("choose the required cargo you want to look for🏗️.",)
-  st.radio(
+  st.radio("",
          ["PRIMARY COKING COAL","MEDIUM COKING COAL","WEAK COKING COAL","PCL COAL","THERMAL COAL"],
          key ="cargo_type")
   cargo_qt = st.number_input("Volume of shipment",1000,500000,10000,key = "cargo_qt")
